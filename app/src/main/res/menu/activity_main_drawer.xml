@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:title="Home"
+            android:icon="@drawable/home"/>
+
+        <item
+            android:id="@+id/login"
+            android:title="Login"
+            android:icon="@android:drawable/arrow_down_float"/>
+
+        <item
+            android:id="@+id/logout"
+            android:title="Logout" />
+        <item
+            android:id="@+id/categories"
+            android:title="Categories"
+            android:icon="@drawable/categories"
+            >
+            <menu>
+                <item
+                    android:id="@+id/musicclub"
+                    android:title="MUSIC CLUB"/>
+                <item
+                    android:id="@+id/dramaclub"
+                    android:title="DRAMA CLUB"/>
+                <item
+                    android:id="@+id/danceclub"
+                    android:title="DANCE CLUB"/>
+            </menu>
+        </item>
+
+        <item
+            android:id="@+id/uploadEvent"
+            android:title="Upload Event"
+            android:visible="false"
+            android:icon="@drawable/uploade"/>
+
+        <item
+            android:id="@+id/rate"
+            android:title="Rate Us"
+            android:icon="@drawable/star"
+            />
+
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/about"
+            android:title="About us" />
+
+    </group>
+    	</menu>
